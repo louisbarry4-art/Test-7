@@ -1,5 +1,7 @@
+git remote add origin https://github.com/louisbarry4-art/Test-8.git
+git branch -M main
+git push -u origin main
 name: Auto generate posts from Sheet
-
 on:
   schedule:
     - cron: '0 3 * * *'  # runs daily at 03:00 UTC
